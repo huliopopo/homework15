@@ -74,7 +74,7 @@ public abstract class Hogwarts {
     protected abstract int sumOfAbility();
 
     protected void compareToStudent(Hogwarts hogwarts) {
-        if (this.sumOfBaseAbility() > hogwarts.sumOfAbility()) {
+        if (this.sumOfAbility() > hogwarts.sumOfAbility()) {
             System.out.printf("Студент %s лучше студента %s, т.к. у него больше очков характеристик (%d против %d)%n",
                     this.getName(),
                     hogwarts.getName(),

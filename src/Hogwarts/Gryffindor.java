@@ -13,7 +13,7 @@ public class Gryffindor extends Hogwarts {
         this.bravery = bravery;
     }
 
-      @Override
+    @Override
     public String toString() {
         return super.toString() + ", faculty='Gryffindor', " +
                 "nobility=" + nobility +
@@ -29,7 +29,6 @@ public class Gryffindor extends Hogwarts {
     public void compareTo(Gryffindor gryffindor) {
         compareToStudent(gryffindor);
     }
-
 
 
 }

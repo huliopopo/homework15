@@ -31,6 +31,7 @@ public class Slytherin extends Hogwarts {
     protected int sumOfAbility() {
         return trick + determination + ambition + resourcefulness + lustForPower;
     }
+
     public void compareTo(Slytherin slytherin) {
         compareToStudent(slytherin);
     }

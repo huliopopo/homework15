@@ -36,6 +36,9 @@ public class Main {
         System.out.println();
         harry.compareToHogwartsStudent(zacharias);
 
+        System.out.println();
+        harry.compareTo(ron);
+
 
     }
 
